@@ -4,8 +4,8 @@ public class Factorial /* put an appropriate class name here */
     public static long factorial(long n) /* factorial function header */
     {
         /* factorial function body */
-        int result = 1;
-        for (int i = 1; i < n + 1; i++) {
+        long result = 1L;
+        for (long i = 1; i < n + 1; i++) {
             result = result * i;
         }
         return result;
@@ -17,8 +17,8 @@ public class Factorial /* put an appropriate class name here */
          * prints out the following output:
          */
         // Long factorialLong = new Long(factorial(20));
-        System.out.println("10! = " + factorial(10));
-        System.out.println("20! = " + factorial(20));
+        System.out.println("10! = " + factorial(10L));
+        System.out.println("20! = " + factorial(20L));
 
         /*
          * output:
